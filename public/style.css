@@ -8,7 +8,7 @@
   body, main {
     height: 100%;
     width: 100%;
-    background-color: #c1524c;
+    background-color: #546A7B;
   }
   .pancakes {
     display: flex;
@@ -24,7 +24,7 @@
     height: 166px;
     width: 50%;
     border: 2px solid white;
-    opacity: .8;
+    opacity: .5;
     background-image: url(pictures/b559cdfd8de273b03a2afb2a3655ef54.jpg);
     background-size: cover;
   }
@@ -40,7 +40,6 @@
     width: 50%;
     background-color: black;
     border: 2px solid white;
-    /*opacity: .5;*/
     color: white;
   }
   .space {
