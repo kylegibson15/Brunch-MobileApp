@@ -1,0 +1,94 @@
+@media only screen and (max-width: 415px) {
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  body, main {
+    height: 100%;
+    width: 100%;
+    background-color: #c1524c;
+  }
+  .pancakes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20%;
+    width: 100%;
+  }
+  .pancakes-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 166px;
+    width: 50%;
+    border: 2px solid white;
+    opacity: .8;
+    background-image: url(pictures/b559cdfd8de273b03a2afb2a3655ef54.jpg);
+    background-size: cover;
+  }
+  .img {
+    height: inherit;
+    width: 100%;
+  }
+  .pancakes-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 166px;
+    width: 50%;
+    background-color: black;
+    border: 2px solid white;
+    /*opacity: .5;*/
+    color: white;
+  }
+  .space {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity: .5;
+  }
+
+
+
+  .nav-wrapper {
+    background-color: #ee6e73;
+    border-bottom: 1px solid #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+  }
+  .navbar li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 50%;
+  }
+  .fryingPan {
+    height: 1.5rem;
+  }
+  ul.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important:
+  }
+  .nav li{
+    margin-right:1rem;
+    margin-left: 1rem;
+    list-style: none;
+  }
+  .nav-rose {
+    visibility: hidden;
+  }
+
+}
