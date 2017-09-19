@@ -1,98 +1,102 @@
-nav .brand-logo {
-  padding-left: 2em !important;
-}
+@media only screen and (max-width: 415px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #546A7B;
+  }
+  main {
+    height: 100%;
+    width: 100%;
+  }
+  #search-area {
+    width: 100%;
 
-.sticky {
-  position: fixed;
-  top: 0px;
-}
-
-.fryingPan {
-  height: 2rem;
-  width: auto;
-  margin-top: 1.2rem;
-}
-
-main {
-  /*margin-bottom: 420px;*/
-}
-
-#city {
-  font-size: .8em;
-  text-decoration: underline white;
-  -webkit-transform: rotate(-90deg);
-}
-
-#search-area {
-  width: 95%;
-  padding-top: 5rem;
-  padding-left: 5rem;
-}
-
-#foodItems {
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: wrap;
-  margin-top: 5rem;
-  margin-left: 1rem;
-}
-
-.food-container {
-  width: 32%;
-  padding: 1.5rem;
-  margin: .2rem;
-  border: .5px solid black;
-}
-
-.linkLogo {
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-end;
-  color: red;
-}
-
-.logo {
-  width: 50%;
-  align-self: flex-end;
-}
-
-.link {
-  display: flex;
-  justify-content: flex-end;
-  align-content: flex-end;
-}
-
-.price-locale {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: wrap;
-}
-
-.foot {
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 70px;
-  background-color: #546A7B;
-  padding-right: 30px;
-  color: white;
-}
-
-.foot h4 {
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-.register {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.quote h5 {
-  margin-left: 4rem;
-  font-family: 'Cedarville Cursive', cursive;
-  color: #FC6DAB;
+  }
+  #food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  form {
+    width: 100%;
+  }
+  .input-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-field {
+    width: 90%;
+    border-radius: .4rem;
+    border-color: #ee6e73;
+  }
+  #foodItems {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: wrap;
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .food-container {
+    width: 32%;
+    padding: 1.5rem;
+    margin: .2rem;
+    border: .5px solid black;
+    background-color: white;
+  }
+  .linkLogo {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    color: red;
+  }
+  .logo {
+    width: 50%;
+    align-self: flex-end;
+  }
+  .link {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  .price-locale {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+  }
+  .nav-wrapper {
+    background-color: #ee6e73;
+    border-bottom: 1px solid #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+  }
+  .navbar li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 50%;
+  }
+  .fryingPan {
+    height: 1.5rem;
+  }
+  ul.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important:
+  }
+  .nav li{
+    margin-right:1rem;
+    margin-left: 1rem;
+    list-style: none;
+  }
 }

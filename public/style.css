@@ -50,9 +50,6 @@
     border-bottom: 2px solid white;
     opacity: .5;
   }
-
-
-
   .nav-wrapper {
     background-color: #ee6e73;
     border-bottom: 1px solid #333;
@@ -61,7 +58,6 @@
     width: 100%;
     height: 50px;
     display: flex;
-
   }
   .navbar li {
     float: left;
@@ -86,8 +82,4 @@
     margin-left: 1rem;
     list-style: none;
   }
-  .nav-rose {
-    visibility: hidden;
-  }
-
 }
