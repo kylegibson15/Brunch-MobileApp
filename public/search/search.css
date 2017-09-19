@@ -11,7 +11,11 @@
   }
   #search-area {
     width: 100%;
-
+  }
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   #food {
     display: flex;
@@ -19,8 +23,17 @@
     align-items: center;
     margin-top: 1rem;
   }
+  .submit-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
   form {
     width: 100%;
+  }
+  button {
+    color: white;
   }
   .input-div {
     width: 100%;
