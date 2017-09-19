@@ -26,8 +26,6 @@ form.addEventListener('submit', function(event) {
           var currentDescription = currentRestaurantMenuItems[j][k].description
           var currentRestaurantMenuItemPrice = currentRestaurantMenuItems[j][k].price
 
-
-
           for(var l = 0; l < currentLabels.length; l++){
             if(id === currentLabels[l]){
 
@@ -40,9 +38,9 @@ form.addEventListener('submit', function(event) {
               var locale = document.createElement('p')
               var price = document.createElement('p')
               var logo = document.createElement('img')
-              var linkLogo= document.createElement('div')
-              var click = document.createElement('p')
-              var clickArrow = document.createElement('img')
+              var linkLogo = document.createElement('div')
+              var itemName = document.createElement('div')
+              var itemContent = document.createElement('div')
 
               div.classList.add('food-container')
               h5.innerText = currentItem
@@ -56,15 +54,20 @@ form.addEventListener('submit', function(event) {
                 logo.classList.add('logo')
               address.innerText = currentRestaurantAddress
               locale.innerText = currentRestaurantLocale
+              itemName.classList.add('itemName')
+              itemContent.classList.add('itemContent')
+              itemName.setAttribute('onclick','myFunction()')
 
               section.append(div)
-              div.append(h5)
-              div.append(h6)
-              div.append(priceLocale)
+              div.append(itemName)
+                itemName.append(h5)
+              div.append(itemContent)
+              itemContent.append(h6)
+              itemContent.append(priceLocale)
                 priceLocale.append(price)
                 priceLocale.append(locale)
-              div.append(address)
-              div.append(linkLogo)
+              itemContent.append(address)
+              itemContent.append(linkLogo)
                 linkLogo.append(link)
                   link.append(logo)
 
@@ -78,3 +81,12 @@ form.addEventListener('submit', function(event) {
   }
 findMenuItems(id)
 })
+
+function myFunction() {
+    var x = document.getElementsByClassName('itemContent');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
