@@ -8,7 +8,13 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Brunch.</title>
   </head>
-  <body>
+  <body onload="myFunction()" style="margin:0;">
+
+<div id="loader">
+  <h1>Brunch.</h1>
+</div>
+  <div id="myDiv" class="animate-bottom">
+
 
     <main>
       <section>
@@ -90,9 +96,11 @@
           </div>
         </nav>
     </footer>
-
-
-    <script type="text/javascript" src="app.js"></script>
+  </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+
   </body>
+
 </html>
