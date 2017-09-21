@@ -29,3 +29,5 @@
 [info] i  hosting: preparing public directory for upload...
 [debug] [2017-09-21T04:55:25.156Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/brunch-mobile-app/uploads/-KuXm_hZxbvbJOTHl6lZ?fileCount=49&message=  
  Wed Sep 20 2017 22:55:25 GMT-0600 (MDT)
+[debug] [2017-09-21T04:55:43.141Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T04:55:43.142Z] [hosting] .tgz uploaded successfully, waiting for extraction
