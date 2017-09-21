@@ -8,7 +8,7 @@
   body, main {
     height: 100%;
     width: 100%;
-    background-color: #546A7B;
+    background-color: white;
   }
   section {
     margin-bottom: 50px;
@@ -121,9 +121,9 @@
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 4s;
   animation-name: animatebottom;
-  animation-duration: 3s
+  animation-duration: 4s
 }
 
 @-webkit-keyframes animatebottom {
