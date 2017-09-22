@@ -17,14 +17,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 310px;
+    height: 210px;
     width: 100%;
   }
   .pancakes-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 310px;
+    height: 210px;
     width: 50%;
     border: 2px solid white;
     background-color: transparent;
@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 310px;
+    height: 210px;
     width: 50%;
     background-color: black;
     border: 2px solid white;
