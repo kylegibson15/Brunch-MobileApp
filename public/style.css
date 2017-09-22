@@ -28,8 +28,6 @@
     width: 50%;
     border: 2px solid white;
     background-color: transparent;
-    /*opacity: .5;*/
-    /*background-image: url(pictures/b559cdfd8de273b03a2afb2a3655ef54.jpg);*/
     background-size: cover;
   }
   .img {
@@ -78,7 +76,6 @@
   }
   .nav-wrapper {
     background-color: #FFE66D;
-    /*border-bottom: 1px solid #333;*/
     position: fixed;
     bottom: 0;
     width: 100%;
